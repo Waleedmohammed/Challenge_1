@@ -1,0 +1,6 @@
+helper/combinationsNumber.class
+helper/combinationsTest$1.class
+TestCases/testRandomInput.class
+TestCases/testSingleInput.class
+helper/combinationsTest.class
+TestCases/testInvalidInput.class

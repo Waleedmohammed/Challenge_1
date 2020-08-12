@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[Provided Input Data : 0<br />Expected Combination List : [0]<br />Actual Combination List : [0]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 1<br />Expected Combination List : [1]<br />Actual Combination List : [1]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 2<br />Expected Combination List : [A, B, C]<br />Actual Combination List : [A, B, C]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 3<br />Expected Combination List : [D, E, F]<br />Actual Combination List : [D, E, F]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 4<br />Expected Combination List : [G, H, I]<br />Actual Combination List : [G, H, I]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 5<br />Expected Combination List : [J, K, L]<br />Actual Combination List : [J, K, L]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 6<br />Expected Combination List : [M, N, O]<br />Actual Combination List : [M, N, O]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 7<br />Expected Combination List : [P, Q, R, S]<br />Actual Combination List : [P, Q, R, S]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 8<br />Expected Combination List : [T, U, V]<br />Actual Combination List : [T, U, V]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 9<br />Expected Combination List : [W, X, Y, Z]<br />Actual Combination List : [W, X, Y, Z]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 57<br />Expected Combination List : [JP, JQ, JR, JS, KP, KQ, KR, KS, LP, LQ, LR, LS]<br />Actual Combination List : [JP, JQ, JR, JS, KP, KQ, KR, KS, LP, LQ, LR, LS]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 101<br />Expected Combination List : [101]<br />Actual Combination List : [101]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 999<br />Expected Combination List : [WWW, WWX, WWY, WWZ, WXW, WXX, WXY, WXZ, WYW, WYX, WYY, WYZ, WZW, WZX, WZY, WZZ, XWW, XWX, XWY, XWZ, XXW, XXX, XXY, XXZ, XYW, XYX, XYY, XYZ, XZW, XZX, XZY, XZZ, YWW, YWX, YWY, YWZ, YXW, YXX, YXY, YXZ, YYW, YYX, YYY, YYZ, YZW, YZX, YZY, YZZ, ZWW, ZWX, ZWY, ZWZ, ZXW, ZXX, ZXY, ZXZ, ZYW, ZYX, ZYY, ZYZ, ZZW, ZZX, ZZY, ZZZ]<br />Actual Combination List : [WWW, WWX, WWY, WWZ, WXW, WXX, WXY, WXZ, WYW, WYX, WYY, WYZ, WZW, WZX, WZY, WZZ, XWW, XWX, XWY, XWZ, XXW, XXX, XXY, XXZ, XYW, XYX, XYY, XYZ, XZW, XZX, XZY, XZZ, YWW, YWX, YWY, YWZ, YXW, YXX, YXY, YXZ, YYW, YYX, YYY, YYZ, YZW, YZX, YZY, YZZ, ZWW, ZWX, ZWY, ZWZ, ZXW, ZXX, ZXY, ZXZ, ZYW, ZYX, ZYY, ZYZ, ZZW, ZZX, ZZY, ZZZ]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 1001<br />Expected Combination List : [1001]<br />Actual Combination List : [1001]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 9999<br />Expected Combination List : [WWWW, WWWX, WWWY, WWWZ, WWXW, WWXX, WWXY, WWXZ, WWYW, WWYX, WWYY, WWYZ, WWZW, WWZX, WWZY, WWZZ, WXWW, WXWX, WXWY, WXWZ, WXXW, WXXX, WXXY, WXXZ, WXYW, WXYX, WXYY, WXYZ, WXZW, WXZX, WXZY, WXZZ, WYWW, WYWX, WYWY, WYWZ, WYXW, WYXX, WYXY, WYXZ, WYYW, WYYX, WYYY, WYYZ, WYZW, WYZX, WYZY, WYZZ, WZWW, WZWX, WZWY, WZWZ, WZXW, WZXX, WZXY, WZXZ, WZYW, WZYX, WZYY, WZYZ, WZZW, WZZX, WZZY, WZZZ, XWWW, XWWX, XWWY, XWWZ, XWXW, XWXX, XWXY, XWXZ, XWYW, XWYX, XWYY, XWYZ, XWZW, XWZX, XWZY, XWZZ, XXWW, XXWX, XXWY, XXWZ, XXXW, XXXX, XXXY, XXXZ, XXYW, XXYX, XXYY, XXYZ, XXZW, XXZX, XXZY, XXZZ, XYWW, XYWX, XYWY, XYWZ, XYXW, XYXX, XYXY, XYXZ, XYYW, XYYX, XYYY, XYYZ, XYZW, XYZX, XYZY, XYZZ, XZWW, XZWX, XZWY, XZWZ, XZXW, XZXX, XZXY, XZXZ, XZYW, XZYX, XZYY, XZYZ, XZZW, XZZX, XZZY, XZZZ, YWWW, YWWX, YWWY, YWWZ, YWXW, YWXX, YWXY, YWXZ, YWYW, YWYX, YWYY, YWYZ, YWZW, YWZX, YWZY, YWZZ, YXWW, YXWX, YXWY, YXWZ, YXXW, YXXX, YXXY, YXXZ, YXYW, YXYX, YXYY, YXYZ, YXZW, YXZX, YXZY, YXZZ, YYWW, YYWX, YYWY, YYWZ, YYXW, YYXX, YYXY, YYXZ, YYYW, YYYX, YYYY, YYYZ, YYZW, YYZX, YYZY, YYZZ, YZWW, YZWX, YZWY, YZWZ, YZXW, YZXX, YZXY, YZXZ, YZYW, YZYX, YZYY, YZYZ, YZZW, YZZX, YZZY, YZZZ, ZWWW, ZWWX, ZWWY, ZWWZ, ZWXW, ZWXX, ZWXY, ZWXZ, ZWYW, ZWYX, ZWYY, ZWYZ, ZWZW, ZWZX, ZWZY, ZWZZ, ZXWW, ZXWX, ZXWY, ZXWZ, ZXXW, ZXXX, ZXXY, ZXXZ, ZXYW, ZXYX, ZXYY, ZXYZ, ZXZW, ZXZX, ZXZY, ZXZZ, ZYWW, ZYWX, ZYWY, ZYWZ, ZYXW, ZYXX, ZYXY, ZYXZ, ZYYW, ZYYX, ZYYY, ZYYZ, ZYZW, ZYZX, ZYZY, ZYZZ, ZZWW, ZZWX, ZZWY, ZZWZ, ZZXW, ZZXX, ZZXY, ZZXZ, ZZYW, ZZYX, ZZYY, ZZYZ, ZZZW, ZZZX, ZZZY, ZZZZ]<br />Actual Combination List : [WWWW, WWWX, WWWY, WWWZ, WWXW, WWXX, WWXY, WWXZ, WWYW, WWYX, WWYY, WWYZ, WWZW, WWZX, WWZY, WWZZ, WXWW, WXWX, WXWY, WXWZ, WXXW, WXXX, WXXY, WXXZ, WXYW, WXYX, WXYY, WXYZ, WXZW, WXZX, WXZY, WXZZ, WYWW, WYWX, WYWY, WYWZ, WYXW, WYXX, WYXY, WYXZ, WYYW, WYYX, WYYY, WYYZ, WYZW, WYZX, WYZY, WYZZ, WZWW, WZWX, WZWY, WZWZ, WZXW, WZXX, WZXY, WZXZ, WZYW, WZYX, WZYY, WZYZ, WZZW, WZZX, WZZY, WZZZ, XWWW, XWWX, XWWY, XWWZ, XWXW, XWXX, XWXY, XWXZ, XWYW, XWYX, XWYY, XWYZ, XWZW, XWZX, XWZY, XWZZ, XXWW, XXWX, XXWY, XXWZ, XXXW, XXXX, XXXY, XXXZ, XXYW, XXYX, XXYY, XXYZ, XXZW, XXZX, XXZY, XXZZ, XYWW, XYWX, XYWY, XYWZ, XYXW, XYXX, XYXY, XYXZ, XYYW, XYYX, XYYY, XYYZ, XYZW, XYZX, XYZY, XYZZ, XZWW, XZWX, XZWY, XZWZ, XZXW, XZXX, XZXY, XZXZ, XZYW, XZYX, XZYY, XZYZ, XZZW, XZZX, XZZY, XZZZ, YWWW, YWWX, YWWY, YWWZ, YWXW, YWXX, YWXY, YWXZ, YWYW, YWYX, YWYY, YWYZ, YWZW, YWZX, YWZY, YWZZ, YXWW, YXWX, YXWY, YXWZ, YXXW, YXXX, YXXY, YXXZ, YXYW, YXYX, YXYY, YXYZ, YXZW, YXZX, YXZY, YXZZ, YYWW, YYWX, YYWY, YYWZ, YYXW, YYXX, YYXY, YYXZ, YYYW, YYYX, YYYY, YYYZ, YYZW, YYZX, YYZY, YYZZ, YZWW, YZWX, YZWY, YZWZ, YZXW, YZXX, YZXY, YZXZ, YZYW, YZYX, YZYY, YZYZ, YZZW, YZZX, YZZY, YZZZ, ZWWW, ZWWX, ZWWY, ZWWZ, ZWXW, ZWXX, ZWXY, ZWXZ, ZWYW, ZWYX, ZWYY, ZWYZ, ZWZW, ZWZX, ZWZY, ZWZZ, ZXWW, ZXWX, ZXWY, ZXWZ, ZXXW, ZXXX, ZXXY, ZXXZ, ZXYW, ZXYX, ZXYY, ZXYZ, ZXZW, ZXZX, ZXZY, ZXZZ, ZYWW, ZYWX, ZYWY, ZYWZ, ZYXW, ZYXX, ZYXY, ZYXZ, ZYYW, ZYYX, ZYYY, ZYYZ, ZYZW, ZYZX, ZYZY, ZYZZ, ZZWW, ZZWX, ZZWY, ZZWZ, ZZXW, ZZXX, ZZXY, ZZXZ, ZZYW, ZZYX, ZZYY, ZZYZ, ZZZW, ZZZX, ZZZY, ZZZZ]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 1234<br />Expected Combination List : [1ADG, 1ADH, 1ADI, 1AEG, 1AEH, 1AEI, 1AFG, 1AFH, 1AFI, 1BDG, 1BDH, 1BDI, 1BEG, 1BEH, 1BEI, 1BFG, 1BFH, 1BFI, 1CDG, 1CDH, 1CDI, 1CEG, 1CEH, 1CEI, 1CFG, 1CFH, 1CFI]<br />Actual Combination List : [1ADG, 1ADH, 1ADI, 1AEG, 1AEH, 1AEI, 1AFG, 1AFH, 1AFI, 1BDG, 1BDH, 1BDI, 1BEG, 1BEH, 1BEI, 1BFG, 1BFH, 1BFI, 1CDG, 1CDH, 1CDI, 1CEG, 1CEH, 1CEI, 1CFG, 1CFH, 1CFI]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 56789<br />Expected Combination List : [JMPTW, JMPTX, JMPTY, JMPTZ, JMPUW, JMPUX, JMPUY, JMPUZ, JMPVW, JMPVX, JMPVY, JMPVZ, JMQTW, JMQTX, JMQTY, JMQTZ, JMQUW, JMQUX, JMQUY, JMQUZ, JMQVW, JMQVX, JMQVY, JMQVZ, JMRTW, JMRTX, JMRTY, JMRTZ, JMRUW, JMRUX, JMRUY, JMRUZ, JMRVW, JMRVX, JMRVY, JMRVZ, JMSTW, JMSTX, JMSTY, JMSTZ, JMSUW, JMSUX, JMSUY, JMSUZ, JMSVW, JMSVX, JMSVY, JMSVZ, JNPTW, JNPTX, JNPTY, JNPTZ, JNPUW, JNPUX, JNPUY, JNPUZ, JNPVW, JNPVX, JNPVY, JNPVZ, JNQTW, JNQTX, JNQTY, JNQTZ, JNQUW, JNQUX, JNQUY, JNQUZ, JNQVW, JNQVX, JNQVY, JNQVZ, JNRTW, JNRTX, JNRTY, JNRTZ, JNRUW, JNRUX, JNRUY, JNRUZ, JNRVW, JNRVX, JNRVY, JNRVZ, JNSTW, JNSTX, JNSTY, JNSTZ, JNSUW, JNSUX, JNSUY, JNSUZ, JNSVW, JNSVX, JNSVY, JNSVZ, JOPTW, JOPTX, JOPTY, JOPTZ, JOPUW, JOPUX, JOPUY, JOPUZ, JOPVW, JOPVX, JOPVY, JOPVZ, JOQTW, JOQTX, JOQTY, JOQTZ, JOQUW, JOQUX, JOQUY, JOQUZ, JOQVW, JOQVX, JOQVY, JOQVZ, JORTW, JORTX, JORTY, JORTZ, JORUW, JORUX, JORUY, JORUZ, JORVW, JORVX, JORVY, JORVZ, JOSTW, JOSTX, JOSTY, JOSTZ, JOSUW, JOSUX, JOSUY, JOSUZ, JOSVW, JOSVX, JOSVY, JOSVZ, KMPTW, KMPTX, KMPTY, KMPTZ, KMPUW, KMPUX, KMPUY, KMPUZ, KMPVW, KMPVX, KMPVY, KMPVZ, KMQTW, KMQTX, KMQTY, KMQTZ, KMQUW, KMQUX, KMQUY, KMQUZ, KMQVW, KMQVX, KMQVY, KMQVZ, KMRTW, KMRTX, KMRTY, KMRTZ, KMRUW, KMRUX, KMRUY, KMRUZ, KMRVW, KMRVX, KMRVY, KMRVZ, KMSTW, KMSTX, KMSTY, KMSTZ, KMSUW, KMSUX, KMSUY, KMSUZ, KMSVW, KMSVX, KMSVY, KMSVZ, KNPTW, KNPTX, KNPTY, KNPTZ, KNPUW, KNPUX, KNPUY, KNPUZ, KNPVW, KNPVX, KNPVY, KNPVZ, KNQTW, KNQTX, KNQTY, KNQTZ, KNQUW, KNQUX, KNQUY, KNQUZ, KNQVW, KNQVX, KNQVY, KNQVZ, KNRTW, KNRTX, KNRTY, KNRTZ, KNRUW, KNRUX, KNRUY, KNRUZ, KNRVW, KNRVX, KNRVY, KNRVZ, KNSTW, KNSTX, KNSTY, KNSTZ, KNSUW, KNSUX, KNSUY, KNSUZ, KNSVW, KNSVX, KNSVY, KNSVZ, KOPTW, KOPTX, KOPTY, KOPTZ, KOPUW, KOPUX, KOPUY, KOPUZ, KOPVW, KOPVX, KOPVY, KOPVZ, KOQTW, KOQTX, KOQTY, KOQTZ, KOQUW, KOQUX, KOQUY, KOQUZ, KOQVW, KOQVX, KOQVY, KOQVZ, KORTW, KORTX, KORTY, KORTZ, KORUW, KORUX, KORUY, KORUZ, KORVW, KORVX, KORVY, KORVZ, KOSTW, KOSTX, KOSTY, KOSTZ, KOSUW, KOSUX, KOSUY, KOSUZ, KOSVW, KOSVX, KOSVY, KOSVZ, LMPTW, LMPTX, LMPTY, LMPTZ, LMPUW, LMPUX, LMPUY, LMPUZ, LMPVW, LMPVX, LMPVY, LMPVZ, LMQTW, LMQTX, LMQTY, LMQTZ, LMQUW, LMQUX, LMQUY, LMQUZ, LMQVW, LMQVX, LMQVY, LMQVZ, LMRTW, LMRTX, LMRTY, LMRTZ, LMRUW, LMRUX, LMRUY, LMRUZ, LMRVW, LMRVX, LMRVY, LMRVZ, LMSTW, LMSTX, LMSTY, LMSTZ, LMSUW, LMSUX, LMSUY, LMSUZ, LMSVW, LMSVX, LMSVY, LMSVZ, LNPTW, LNPTX, LNPTY, LNPTZ, LNPUW, LNPUX, LNPUY, LNPUZ, LNPVW, LNPVX, LNPVY, LNPVZ, LNQTW, LNQTX, LNQTY, LNQTZ, LNQUW, LNQUX, LNQUY, LNQUZ, LNQVW, LNQVX, LNQVY, LNQVZ, LNRTW, LNRTX, LNRTY, LNRTZ, LNRUW, LNRUX, LNRUY, LNRUZ, LNRVW, LNRVX, LNRVY, LNRVZ, LNSTW, LNSTX, LNSTY, LNSTZ, LNSUW, LNSUX, LNSUY, LNSUZ, LNSVW, LNSVX, LNSVY, LNSVZ, LOPTW, LOPTX, LOPTY, LOPTZ, LOPUW, LOPUX, LOPUY, LOPUZ, LOPVW, LOPVX, LOPVY, LOPVZ, LOQTW, LOQTX, LOQTY, LOQTZ, LOQUW, LOQUX, LOQUY, LOQUZ, LOQVW, LOQVX, LOQVY, LOQVZ, LORTW, LORTX, LORTY, LORTZ, LORUW, LORUX, LORUY, LORUZ, LORVW, LORVX, LORVY, LORVZ, LOSTW, LOSTX, LOSTY, LOSTZ, LOSUW, LOSUX, LOSUY, LOSUZ, LOSVW, LOSVX, LOSVY, LOSVZ]<br />Actual Combination List : [JMPTW, JMPTX, JMPTY, JMPTZ, JMPUW, JMPUX, JMPUY, JMPUZ, JMPVW, JMPVX, JMPVY, JMPVZ, JMQTW, JMQTX, JMQTY, JMQTZ, JMQUW, JMQUX, JMQUY, JMQUZ, JMQVW, JMQVX, JMQVY, JMQVZ, JMRTW, JMRTX, JMRTY, JMRTZ, JMRUW, JMRUX, JMRUY, JMRUZ, JMRVW, JMRVX, JMRVY, JMRVZ, JMSTW, JMSTX, JMSTY, JMSTZ, JMSUW, JMSUX, JMSUY, JMSUZ, JMSVW, JMSVX, JMSVY, JMSVZ, JNPTW, JNPTX, JNPTY, JNPTZ, JNPUW, JNPUX, JNPUY, JNPUZ, JNPVW, JNPVX, JNPVY, JNPVZ, JNQTW, JNQTX, JNQTY, JNQTZ, JNQUW, JNQUX, JNQUY, JNQUZ, JNQVW, JNQVX, JNQVY, JNQVZ, JNRTW, JNRTX, JNRTY, JNRTZ, JNRUW, JNRUX, JNRUY, JNRUZ, JNRVW, JNRVX, JNRVY, JNRVZ, JNSTW, JNSTX, JNSTY, JNSTZ, JNSUW, JNSUX, JNSUY, JNSUZ, JNSVW, JNSVX, JNSVY, JNSVZ, JOPTW, JOPTX, JOPTY, JOPTZ, JOPUW, JOPUX, JOPUY, JOPUZ, JOPVW, JOPVX, JOPVY, JOPVZ, JOQTW, JOQTX, JOQTY, JOQTZ, JOQUW, JOQUX, JOQUY, JOQUZ, JOQVW, JOQVX, JOQVY, JOQVZ, JORTW, JORTX, JORTY, JORTZ, JORUW, JORUX, JORUY, JORUZ, JORVW, JORVX, JORVY, JORVZ, JOSTW, JOSTX, JOSTY, JOSTZ, JOSUW, JOSUX, JOSUY, JOSUZ, JOSVW, JOSVX, JOSVY, JOSVZ, KMPTW, KMPTX, KMPTY, KMPTZ, KMPUW, KMPUX, KMPUY, KMPUZ, KMPVW, KMPVX, KMPVY, KMPVZ, KMQTW, KMQTX, KMQTY, KMQTZ, KMQUW, KMQUX, KMQUY, KMQUZ, KMQVW, KMQVX, KMQVY, KMQVZ, KMRTW, KMRTX, KMRTY, KMRTZ, KMRUW, KMRUX, KMRUY, KMRUZ, KMRVW, KMRVX, KMRVY, KMRVZ, KMSTW, KMSTX, KMSTY, KMSTZ, KMSUW, KMSUX, KMSUY, KMSUZ, KMSVW, KMSVX, KMSVY, KMSVZ, KNPTW, KNPTX, KNPTY, KNPTZ, KNPUW, KNPUX, KNPUY, KNPUZ, KNPVW, KNPVX, KNPVY, KNPVZ, KNQTW, KNQTX, KNQTY, KNQTZ, KNQUW, KNQUX, KNQUY, KNQUZ, KNQVW, KNQVX, KNQVY, KNQVZ, KNRTW, KNRTX, KNRTY, KNRTZ, KNRUW, KNRUX, KNRUY, KNRUZ, KNRVW, KNRVX, KNRVY, KNRVZ, KNSTW, KNSTX, KNSTY, KNSTZ, KNSUW, KNSUX, KNSUY, KNSUZ, KNSVW, KNSVX, KNSVY, KNSVZ, KOPTW, KOPTX, KOPTY, KOPTZ, KOPUW, KOPUX, KOPUY, KOPUZ, KOPVW, KOPVX, KOPVY, KOPVZ, KOQTW, KOQTX, KOQTY, KOQTZ, KOQUW, KOQUX, KOQUY, KOQUZ, KOQVW, KOQVX, KOQVY, KOQVZ, KORTW, KORTX, KORTY, KORTZ, KORUW, KORUX, KORUY, KORUZ, KORVW, KORVX, KORVY, KORVZ, KOSTW, KOSTX, KOSTY, KOSTZ, KOSUW, KOSUX, KOSUY, KOSUZ, KOSVW, KOSVX, KOSVY, KOSVZ, LMPTW, LMPTX, LMPTY, LMPTZ, LMPUW, LMPUX, LMPUY, LMPUZ, LMPVW, LMPVX, LMPVY, LMPVZ, LMQTW, LMQTX, LMQTY, LMQTZ, LMQUW, LMQUX, LMQUY, LMQUZ, LMQVW, LMQVX, LMQVY, LMQVZ, LMRTW, LMRTX, LMRTY, LMRTZ, LMRUW, LMRUX, LMRUY, LMRUZ, LMRVW, LMRVX, LMRVY, LMRVZ, LMSTW, LMSTX, LMSTY, LMSTZ, LMSUW, LMSUX, LMSUY, LMSUZ, LMSVW, LMSVX, LMSVY, LMSVZ, LNPTW, LNPTX, LNPTY, LNPTZ, LNPUW, LNPUX, LNPUY, LNPUZ, LNPVW, LNPVX, LNPVY, LNPVZ, LNQTW, LNQTX, LNQTY, LNQTZ, LNQUW, LNQUX, LNQUY, LNQUZ, LNQVW, LNQVX, LNQVY, LNQVZ, LNRTW, LNRTX, LNRTY, LNRTZ, LNRUW, LNRUX, LNRUY, LNRUZ, LNRVW, LNRVX, LNRVY, LNRVZ, LNSTW, LNSTX, LNSTY, LNSTZ, LNSUW, LNSUX, LNSUY, LNSUZ, LNSVW, LNSVX, LNSVY, LNSVZ, LOPTW, LOPTX, LOPTY, LOPTZ, LOPUW, LOPUX, LOPUY, LOPUZ, LOPVW, LOPVX, LOPVY, LOPVZ, LOQTW, LOQTX, LOQTY, LOQTZ, LOQUW, LOQUX, LOQUY, LOQUZ, LOQVW, LOQVX, LOQVY, LOQVZ, LORTW, LORTX, LORTY, LORTZ, LORUW, LORUX, LORUY, LORUZ, LORVW, LORVX, LORVY, LORVZ, LOSTW, LOSTX, LOSTY, LOSTZ, LOSUW, LOSUX, LOSUY, LOSUZ, LOSVW, LOSVX, LOSVY, LOSVZ]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 63<br />Expected Combination List : [MD, ME, MF, ND, NE, NF, OD, OE, OF]<br />Actual Combination List : [MD, ME, MF, ND, NE, NF, OD, OE, OF]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 1598<br />Expected Combination List : [1JWT, 1JWU, 1JWV, 1JXT, 1JXU, 1JXV, 1JYT, 1JYU, 1JYV, 1JZT, 1JZU, 1JZV, 1KWT, 1KWU, 1KWV, 1KXT, 1KXU, 1KXV, 1KYT, 1KYU, 1KYV, 1KZT, 1KZU, 1KZV, 1LWT, 1LWU, 1LWV, 1LXT, 1LXU, 1LXV, 1LYT, 1LYU, 1LYV, 1LZT, 1LZU, 1LZV]<br />Actual Combination List : [1JWT, 1JWU, 1JWV, 1JXT, 1JXU, 1JXV, 1JYT, 1JYU, 1JYV, 1JZT, 1JZU, 1JZV, 1KWT, 1KWU, 1KWV, 1KXT, 1KXU, 1KXV, 1KYT, 1KYU, 1KYV, 1KZT, 1KZU, 1KZV, 1LWT, 1LWU, 1LWV, 1LXT, 1LXU, 1LXV, 1LYT, 1LYU, 1LYV, 1LZT, 1LZU, 1LZV]]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : ABC]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 2.2]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : -1]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 12AB56]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 12*13]]>
+    </line>
+    <line>
+      <![CDATA[Provided Input Data : 20#20]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="1244" started-at="2020-08-10T09:33:48Z" finished-at="2020-08-10T09:33:49Z">
+    <groups>
+    </groups>
+    <test name="All Test Cases" duration-ms="1244" started-at="2020-08-10T09:33:48Z" finished-at="2020-08-10T09:33:49Z">
+      <class name="TestCases.testInvalidInput">
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String)[pri:0, instance:TestCases.testInvalidInput@47f37ef1]" name="testInvalidInputs" duration-ms="1" started-at="2020-08-10T09:33:49Z" data-provider="InvalidData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "A"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "A"
+at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.lang.Integer.parseInt(Integer.java:580)
+at java.lang.Integer.parseInt(Integer.java:615)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:18)
+at application.TelephoneDialPad.retrieveCombinations(TelephoneDialPad.java:33)
+at TestCases.testInvalidInput.testInvalidInputs(testInvalidInput.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : ABC]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String)[pri:0, instance:TestCases.testInvalidInput@47f37ef1]" name="testInvalidInputs" duration-ms="1" started-at="2020-08-10T09:33:49Z" data-provider="InvalidData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "."]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "."
+at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.lang.Integer.parseInt(Integer.java:569)
+at java.lang.Integer.parseInt(Integer.java:615)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:18)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:25)
+at application.TelephoneDialPad.retrieveCombinations(TelephoneDialPad.java:33)
+at TestCases.testInvalidInput.testInvalidInputs(testInvalidInput.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 2.2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String)[pri:0, instance:TestCases.testInvalidInput@47f37ef1]" name="testInvalidInputs" duration-ms="0" started-at="2020-08-10T09:33:49Z" data-provider="InvalidData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "-"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "-"
+at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.lang.Integer.parseInt(Integer.java:572)
+at java.lang.Integer.parseInt(Integer.java:615)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:18)
+at application.TelephoneDialPad.retrieveCombinations(TelephoneDialPad.java:33)
+at TestCases.testInvalidInput.testInvalidInputs(testInvalidInput.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String)[pri:0, instance:TestCases.testInvalidInput@47f37ef1]" name="testInvalidInputs" duration-ms="1" started-at="2020-08-10T09:33:49Z" data-provider="InvalidData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12*13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "*"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "*"
+at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.lang.Integer.parseInt(Integer.java:569)
+at java.lang.Integer.parseInt(Integer.java:615)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:18)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:25)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:25)
+at application.TelephoneDialPad.retrieveCombinations(TelephoneDialPad.java:33)
+at TestCases.testInvalidInput.testInvalidInputs(testInvalidInput.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 12*13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String)[pri:0, instance:TestCases.testInvalidInput@47f37ef1]" name="testInvalidInputs" duration-ms="0" started-at="2020-08-10T09:33:49Z" data-provider="InvalidData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12AB56]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "A"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "A"
+at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.lang.Integer.parseInt(Integer.java:580)
+at java.lang.Integer.parseInt(Integer.java:615)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:18)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:25)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:25)
+at application.TelephoneDialPad.retrieveCombinations(TelephoneDialPad.java:33)
+at TestCases.testInvalidInput.testInvalidInputs(testInvalidInput.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 12AB56]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String)[pri:0, instance:TestCases.testInvalidInput@47f37ef1]" name="testInvalidInputs" duration-ms="0" started-at="2020-08-10T09:33:49Z" data-provider="InvalidData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20#20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "#"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "#"
+at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.lang.Integer.parseInt(Integer.java:569)
+at java.lang.Integer.parseInt(Integer.java:615)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:18)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:25)
+at application.TelephoneDialPad.calculateAlphabetCombinations(TelephoneDialPad.java:25)
+at application.TelephoneDialPad.retrieveCombinations(TelephoneDialPad.java:33)
+at TestCases.testInvalidInput.testInvalidInputs(testInvalidInput.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 20#20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+      </class> <!-- TestCases.testInvalidInput -->
+      <class name="TestCases.testRandomInput">
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="1" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 57<br />Expected Combination List : [JP, JQ, JR, JS, KP, KQ, KR, KS, LP, LQ, LR, LS]<br />Actual Combination List : [JP, JQ, JR, JS, KP, KQ, KR, KS, LP, LQ, LR, LS]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="1" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 101<br />Expected Combination List : [101]<br />Actual Combination List : [101]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="5" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 999<br />Expected Combination List : [WWW, WWX, WWY, WWZ, WXW, WXX, WXY, WXZ, WYW, WYX, WYY, WYZ, WZW, WZX, WZY, WZZ, XWW, XWX, XWY, XWZ, XXW, XXX, XXY, XXZ, XYW, XYX, XYY, XYZ, XZW, XZX, XZY, XZZ, YWW, YWX, YWY, YWZ, YXW, YXX, YXY, YXZ, YYW, YYX, YYY, YYZ, YZW, YZX, YZY, YZZ, ZWW, ZWX, ZWY, ZWZ, ZXW, ZXX, ZXY, ZXZ, ZYW, ZYX, ZYY, ZYZ, ZZW, ZZX, ZZY, ZZZ]<br />Actual Combination List : [WWW, WWX, WWY, WWZ, WXW, WXX, WXY, WXZ, WYW, WYX, WYY, WYZ, WZW, WZX, WZY, WZZ, XWW, XWX, XWY, XWZ, XXW, XXX, XXY, XXZ, XYW, XYX, XYY, XYZ, XZW, XZX, XZY, XZZ, YWW, YWX, YWY, YWZ, YXW, YXX, YXY, YXZ, YYW, YYX, YYY, YYZ, YZW, YZX, YZY, YZZ, ZWW, ZWX, ZWY, ZWZ, ZXW, ZXX, ZXY, ZXZ, ZYW, ZYX, ZYY, ZYZ, ZZW, ZZX, ZZY, ZZZ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="3" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 1001<br />Expected Combination List : [1001]<br />Actual Combination List : [1001]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="6" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 9999<br />Expected Combination List : [WWWW, WWWX, WWWY, WWWZ, WWXW, WWXX, WWXY, WWXZ, WWYW, WWYX, WWYY, WWYZ, WWZW, WWZX, WWZY, WWZZ, WXWW, WXWX, WXWY, WXWZ, WXXW, WXXX, WXXY, WXXZ, WXYW, WXYX, WXYY, WXYZ, WXZW, WXZX, WXZY, WXZZ, WYWW, WYWX, WYWY, WYWZ, WYXW, WYXX, WYXY, WYXZ, WYYW, WYYX, WYYY, WYYZ, WYZW, WYZX, WYZY, WYZZ, WZWW, WZWX, WZWY, WZWZ, WZXW, WZXX, WZXY, WZXZ, WZYW, WZYX, WZYY, WZYZ, WZZW, WZZX, WZZY, WZZZ, XWWW, XWWX, XWWY, XWWZ, XWXW, XWXX, XWXY, XWXZ, XWYW, XWYX, XWYY, XWYZ, XWZW, XWZX, XWZY, XWZZ, XXWW, XXWX, XXWY, XXWZ, XXXW, XXXX, XXXY, XXXZ, XXYW, XXYX, XXYY, XXYZ, XXZW, XXZX, XXZY, XXZZ, XYWW, XYWX, XYWY, XYWZ, XYXW, XYXX, XYXY, XYXZ, XYYW, XYYX, XYYY, XYYZ, XYZW, XYZX, XYZY, XYZZ, XZWW, XZWX, XZWY, XZWZ, XZXW, XZXX, XZXY, XZXZ, XZYW, XZYX, XZYY, XZYZ, XZZW, XZZX, XZZY, XZZZ, YWWW, YWWX, YWWY, YWWZ, YWXW, YWXX, YWXY, YWXZ, YWYW, YWYX, YWYY, YWYZ, YWZW, YWZX, YWZY, YWZZ, YXWW, YXWX, YXWY, YXWZ, YXXW, YXXX, YXXY, YXXZ, YXYW, YXYX, YXYY, YXYZ, YXZW, YXZX, YXZY, YXZZ, YYWW, YYWX, YYWY, YYWZ, YYXW, YYXX, YYXY, YYXZ, YYYW, YYYX, YYYY, YYYZ, YYZW, YYZX, YYZY, YYZZ, YZWW, YZWX, YZWY, YZWZ, YZXW, YZXX, YZXY, YZXZ, YZYW, YZYX, YZYY, YZYZ, YZZW, YZZX, YZZY, YZZZ, ZWWW, ZWWX, ZWWY, ZWWZ, ZWXW, ZWXX, ZWXY, ZWXZ, ZWYW, ZWYX, ZWYY, ZWYZ, ZWZW, ZWZX, ZWZY, ZWZZ, ZXWW, ZXWX, ZXWY, ZXWZ, ZXXW, ZXXX, ZXXY, ZXXZ, ZXYW, ZXYX, ZXYY, ZXYZ, ZXZW, ZXZX, ZXZY, ZXZZ, ZYWW, ZYWX, ZYWY, ZYWZ, ZYXW, ZYXX, ZYXY, ZYXZ, ZYYW, ZYYX, ZYYY, ZYYZ, ZYZW, ZYZX, ZYZY, ZYZZ, ZZWW, ZZWX, ZZWY, ZZWZ, ZZXW, ZZXX, ZZXY, ZZXZ, ZZYW, ZZYX, ZZYY, ZZYZ, ZZZW, ZZZX, ZZZY, ZZZZ]<br />Actual Combination List : [WWWW, WWWX, WWWY, WWWZ, WWXW, WWXX, WWXY, WWXZ, WWYW, WWYX, WWYY, WWYZ, WWZW, WWZX, WWZY, WWZZ, WXWW, WXWX, WXWY, WXWZ, WXXW, WXXX, WXXY, WXXZ, WXYW, WXYX, WXYY, WXYZ, WXZW, WXZX, WXZY, WXZZ, WYWW, WYWX, WYWY, WYWZ, WYXW, WYXX, WYXY, WYXZ, WYYW, WYYX, WYYY, WYYZ, WYZW, WYZX, WYZY, WYZZ, WZWW, WZWX, WZWY, WZWZ, WZXW, WZXX, WZXY, WZXZ, WZYW, WZYX, WZYY, WZYZ, WZZW, WZZX, WZZY, WZZZ, XWWW, XWWX, XWWY, XWWZ, XWXW, XWXX, XWXY, XWXZ, XWYW, XWYX, XWYY, XWYZ, XWZW, XWZX, XWZY, XWZZ, XXWW, XXWX, XXWY, XXWZ, XXXW, XXXX, XXXY, XXXZ, XXYW, XXYX, XXYY, XXYZ, XXZW, XXZX, XXZY, XXZZ, XYWW, XYWX, XYWY, XYWZ, XYXW, XYXX, XYXY, XYXZ, XYYW, XYYX, XYYY, XYYZ, XYZW, XYZX, XYZY, XYZZ, XZWW, XZWX, XZWY, XZWZ, XZXW, XZXX, XZXY, XZXZ, XZYW, XZYX, XZYY, XZYZ, XZZW, XZZX, XZZY, XZZZ, YWWW, YWWX, YWWY, YWWZ, YWXW, YWXX, YWXY, YWXZ, YWYW, YWYX, YWYY, YWYZ, YWZW, YWZX, YWZY, YWZZ, YXWW, YXWX, YXWY, YXWZ, YXXW, YXXX, YXXY, YXXZ, YXYW, YXYX, YXYY, YXYZ, YXZW, YXZX, YXZY, YXZZ, YYWW, YYWX, YYWY, YYWZ, YYXW, YYXX, YYXY, YYXZ, YYYW, YYYX, YYYY, YYYZ, YYZW, YYZX, YYZY, YYZZ, YZWW, YZWX, YZWY, YZWZ, YZXW, YZXX, YZXY, YZXZ, YZYW, YZYX, YZYY, YZYZ, YZZW, YZZX, YZZY, YZZZ, ZWWW, ZWWX, ZWWY, ZWWZ, ZWXW, ZWXX, ZWXY, ZWXZ, ZWYW, ZWYX, ZWYY, ZWYZ, ZWZW, ZWZX, ZWZY, ZWZZ, ZXWW, ZXWX, ZXWY, ZXWZ, ZXXW, ZXXX, ZXXY, ZXXZ, ZXYW, ZXYX, ZXYY, ZXYZ, ZXZW, ZXZX, ZXZY, ZXZZ, ZYWW, ZYWX, ZYWY, ZYWZ, ZYXW, ZYXX, ZYXY, ZYXZ, ZYYW, ZYYX, ZYYY, ZYYZ, ZYZW, ZYZX, ZYZY, ZYZZ, ZZWW, ZZWX, ZZWY, ZZWZ, ZZXW, ZZXX, ZZXY, ZZXZ, ZZYW, ZZYX, ZZYY, ZZYZ, ZZZW, ZZZX, ZZZY, ZZZZ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="3" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 1234<br />Expected Combination List : [1ADG, 1ADH, 1ADI, 1AEG, 1AEH, 1AEI, 1AFG, 1AFH, 1AFI, 1BDG, 1BDH, 1BDI, 1BEG, 1BEH, 1BEI, 1BFG, 1BFH, 1BFI, 1CDG, 1CDH, 1CDI, 1CEG, 1CEH, 1CEI, 1CFG, 1CFH, 1CFI]<br />Actual Combination List : [1ADG, 1ADH, 1ADI, 1AEG, 1AEH, 1AEI, 1AFG, 1AFH, 1AFI, 1BDG, 1BDH, 1BDI, 1BEG, 1BEH, 1BEI, 1BFG, 1BFH, 1BFI, 1CDG, 1CDH, 1CDI, 1CEG, 1CEH, 1CEI, 1CFG, 1CFH, 1CFI]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="4" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 56789<br />Expected Combination List : [JMPTW, JMPTX, JMPTY, JMPTZ, JMPUW, JMPUX, JMPUY, JMPUZ, JMPVW, JMPVX, JMPVY, JMPVZ, JMQTW, JMQTX, JMQTY, JMQTZ, JMQUW, JMQUX, JMQUY, JMQUZ, JMQVW, JMQVX, JMQVY, JMQVZ, JMRTW, JMRTX, JMRTY, JMRTZ, JMRUW, JMRUX, JMRUY, JMRUZ, JMRVW, JMRVX, JMRVY, JMRVZ, JMSTW, JMSTX, JMSTY, JMSTZ, JMSUW, JMSUX, JMSUY, JMSUZ, JMSVW, JMSVX, JMSVY, JMSVZ, JNPTW, JNPTX, JNPTY, JNPTZ, JNPUW, JNPUX, JNPUY, JNPUZ, JNPVW, JNPVX, JNPVY, JNPVZ, JNQTW, JNQTX, JNQTY, JNQTZ, JNQUW, JNQUX, JNQUY, JNQUZ, JNQVW, JNQVX, JNQVY, JNQVZ, JNRTW, JNRTX, JNRTY, JNRTZ, JNRUW, JNRUX, JNRUY, JNRUZ, JNRVW, JNRVX, JNRVY, JNRVZ, JNSTW, JNSTX, JNSTY, JNSTZ, JNSUW, JNSUX, JNSUY, JNSUZ, JNSVW, JNSVX, JNSVY, JNSVZ, JOPTW, JOPTX, JOPTY, JOPTZ, JOPUW, JOPUX, JOPUY, JOPUZ, JOPVW, JOPVX, JOPVY, JOPVZ, JOQTW, JOQTX, JOQTY, JOQTZ, JOQUW, JOQUX, JOQUY, JOQUZ, JOQVW, JOQVX, JOQVY, JOQVZ, JORTW, JORTX, JORTY, JORTZ, JORUW, JORUX, JORUY, JORUZ, JORVW, JORVX, JORVY, JORVZ, JOSTW, JOSTX, JOSTY, JOSTZ, JOSUW, JOSUX, JOSUY, JOSUZ, JOSVW, JOSVX, JOSVY, JOSVZ, KMPTW, KMPTX, KMPTY, KMPTZ, KMPUW, KMPUX, KMPUY, KMPUZ, KMPVW, KMPVX, KMPVY, KMPVZ, KMQTW, KMQTX, KMQTY, KMQTZ, KMQUW, KMQUX, KMQUY, KMQUZ, KMQVW, KMQVX, KMQVY, KMQVZ, KMRTW, KMRTX, KMRTY, KMRTZ, KMRUW, KMRUX, KMRUY, KMRUZ, KMRVW, KMRVX, KMRVY, KMRVZ, KMSTW, KMSTX, KMSTY, KMSTZ, KMSUW, KMSUX, KMSUY, KMSUZ, KMSVW, KMSVX, KMSVY, KMSVZ, KNPTW, KNPTX, KNPTY, KNPTZ, KNPUW, KNPUX, KNPUY, KNPUZ, KNPVW, KNPVX, KNPVY, KNPVZ, KNQTW, KNQTX, KNQTY, KNQTZ, KNQUW, KNQUX, KNQUY, KNQUZ, KNQVW, KNQVX, KNQVY, KNQVZ, KNRTW, KNRTX, KNRTY, KNRTZ, KNRUW, KNRUX, KNRUY, KNRUZ, KNRVW, KNRVX, KNRVY, KNRVZ, KNSTW, KNSTX, KNSTY, KNSTZ, KNSUW, KNSUX, KNSUY, KNSUZ, KNSVW, KNSVX, KNSVY, KNSVZ, KOPTW, KOPTX, KOPTY, KOPTZ, KOPUW, KOPUX, KOPUY, KOPUZ, KOPVW, KOPVX, KOPVY, KOPVZ, KOQTW, KOQTX, KOQTY, KOQTZ, KOQUW, KOQUX, KOQUY, KOQUZ, KOQVW, KOQVX, KOQVY, KOQVZ, KORTW, KORTX, KORTY, KORTZ, KORUW, KORUX, KORUY, KORUZ, KORVW, KORVX, KORVY, KORVZ, KOSTW, KOSTX, KOSTY, KOSTZ, KOSUW, KOSUX, KOSUY, KOSUZ, KOSVW, KOSVX, KOSVY, KOSVZ, LMPTW, LMPTX, LMPTY, LMPTZ, LMPUW, LMPUX, LMPUY, LMPUZ, LMPVW, LMPVX, LMPVY, LMPVZ, LMQTW, LMQTX, LMQTY, LMQTZ, LMQUW, LMQUX, LMQUY, LMQUZ, LMQVW, LMQVX, LMQVY, LMQVZ, LMRTW, LMRTX, LMRTY, LMRTZ, LMRUW, LMRUX, LMRUY, LMRUZ, LMRVW, LMRVX, LMRVY, LMRVZ, LMSTW, LMSTX, LMSTY, LMSTZ, LMSUW, LMSUX, LMSUY, LMSUZ, LMSVW, LMSVX, LMSVY, LMSVZ, LNPTW, LNPTX, LNPTY, LNPTZ, LNPUW, LNPUX, LNPUY, LNPUZ, LNPVW, LNPVX, LNPVY, LNPVZ, LNQTW, LNQTX, LNQTY, LNQTZ, LNQUW, LNQUX, LNQUY, LNQUZ, LNQVW, LNQVX, LNQVY, LNQVZ, LNRTW, LNRTX, LNRTY, LNRTZ, LNRUW, LNRUX, LNRUY, LNRUZ, LNRVW, LNRVX, LNRVY, LNRVZ, LNSTW, LNSTX, LNSTY, LNSTZ, LNSUW, LNSUX, LNSUY, LNSUZ, LNSVW, LNSVX, LNSVY, LNSVZ, LOPTW, LOPTX, LOPTY, LOPTZ, LOPUW, LOPUX, LOPUY, LOPUZ, LOPVW, LOPVX, LOPVY, LOPVZ, LOQTW, LOQTX, LOQTY, LOQTZ, LOQUW, LOQUX, LOQUY, LOQUZ, LOQVW, LOQVX, LOQVY, LOQVZ, LORTW, LORTX, LORTY, LORTZ, LORUW, LORUX, LORUY, LORUZ, LORVW, LORVX, LORVY, LORVZ, LOSTW, LOSTX, LOSTY, LOSTZ, LOSUW, LOSUX, LOSUY, LOSUZ, LOSVW, LOSVX, LOSVY, LOSVZ]<br />Actual Combination List : [JMPTW, JMPTX, JMPTY, JMPTZ, JMPUW, JMPUX, JMPUY, JMPUZ, JMPVW, JMPVX, JMPVY, JMPVZ, JMQTW, JMQTX, JMQTY, JMQTZ, JMQUW, JMQUX, JMQUY, JMQUZ, JMQVW, JMQVX, JMQVY, JMQVZ, JMRTW, JMRTX, JMRTY, JMRTZ, JMRUW, JMRUX, JMRUY, JMRUZ, JMRVW, JMRVX, JMRVY, JMRVZ, JMSTW, JMSTX, JMSTY, JMSTZ, JMSUW, JMSUX, JMSUY, JMSUZ, JMSVW, JMSVX, JMSVY, JMSVZ, JNPTW, JNPTX, JNPTY, JNPTZ, JNPUW, JNPUX, JNPUY, JNPUZ, JNPVW, JNPVX, JNPVY, JNPVZ, JNQTW, JNQTX, JNQTY, JNQTZ, JNQUW, JNQUX, JNQUY, JNQUZ, JNQVW, JNQVX, JNQVY, JNQVZ, JNRTW, JNRTX, JNRTY, JNRTZ, JNRUW, JNRUX, JNRUY, JNRUZ, JNRVW, JNRVX, JNRVY, JNRVZ, JNSTW, JNSTX, JNSTY, JNSTZ, JNSUW, JNSUX, JNSUY, JNSUZ, JNSVW, JNSVX, JNSVY, JNSVZ, JOPTW, JOPTX, JOPTY, JOPTZ, JOPUW, JOPUX, JOPUY, JOPUZ, JOPVW, JOPVX, JOPVY, JOPVZ, JOQTW, JOQTX, JOQTY, JOQTZ, JOQUW, JOQUX, JOQUY, JOQUZ, JOQVW, JOQVX, JOQVY, JOQVZ, JORTW, JORTX, JORTY, JORTZ, JORUW, JORUX, JORUY, JORUZ, JORVW, JORVX, JORVY, JORVZ, JOSTW, JOSTX, JOSTY, JOSTZ, JOSUW, JOSUX, JOSUY, JOSUZ, JOSVW, JOSVX, JOSVY, JOSVZ, KMPTW, KMPTX, KMPTY, KMPTZ, KMPUW, KMPUX, KMPUY, KMPUZ, KMPVW, KMPVX, KMPVY, KMPVZ, KMQTW, KMQTX, KMQTY, KMQTZ, KMQUW, KMQUX, KMQUY, KMQUZ, KMQVW, KMQVX, KMQVY, KMQVZ, KMRTW, KMRTX, KMRTY, KMRTZ, KMRUW, KMRUX, KMRUY, KMRUZ, KMRVW, KMRVX, KMRVY, KMRVZ, KMSTW, KMSTX, KMSTY, KMSTZ, KMSUW, KMSUX, KMSUY, KMSUZ, KMSVW, KMSVX, KMSVY, KMSVZ, KNPTW, KNPTX, KNPTY, KNPTZ, KNPUW, KNPUX, KNPUY, KNPUZ, KNPVW, KNPVX, KNPVY, KNPVZ, KNQTW, KNQTX, KNQTY, KNQTZ, KNQUW, KNQUX, KNQUY, KNQUZ, KNQVW, KNQVX, KNQVY, KNQVZ, KNRTW, KNRTX, KNRTY, KNRTZ, KNRUW, KNRUX, KNRUY, KNRUZ, KNRVW, KNRVX, KNRVY, KNRVZ, KNSTW, KNSTX, KNSTY, KNSTZ, KNSUW, KNSUX, KNSUY, KNSUZ, KNSVW, KNSVX, KNSVY, KNSVZ, KOPTW, KOPTX, KOPTY, KOPTZ, KOPUW, KOPUX, KOPUY, KOPUZ, KOPVW, KOPVX, KOPVY, KOPVZ, KOQTW, KOQTX, KOQTY, KOQTZ, KOQUW, KOQUX, KOQUY, KOQUZ, KOQVW, KOQVX, KOQVY, KOQVZ, KORTW, KORTX, KORTY, KORTZ, KORUW, KORUX, KORUY, KORUZ, KORVW, KORVX, KORVY, KORVZ, KOSTW, KOSTX, KOSTY, KOSTZ, KOSUW, KOSUX, KOSUY, KOSUZ, KOSVW, KOSVX, KOSVY, KOSVZ, LMPTW, LMPTX, LMPTY, LMPTZ, LMPUW, LMPUX, LMPUY, LMPUZ, LMPVW, LMPVX, LMPVY, LMPVZ, LMQTW, LMQTX, LMQTY, LMQTZ, LMQUW, LMQUX, LMQUY, LMQUZ, LMQVW, LMQVX, LMQVY, LMQVZ, LMRTW, LMRTX, LMRTY, LMRTZ, LMRUW, LMRUX, LMRUY, LMRUZ, LMRVW, LMRVX, LMRVY, LMRVZ, LMSTW, LMSTX, LMSTY, LMSTZ, LMSUW, LMSUX, LMSUY, LMSUZ, LMSVW, LMSVX, LMSVY, LMSVZ, LNPTW, LNPTX, LNPTY, LNPTZ, LNPUW, LNPUX, LNPUY, LNPUZ, LNPVW, LNPVX, LNPVY, LNPVZ, LNQTW, LNQTX, LNQTY, LNQTZ, LNQUW, LNQUX, LNQUY, LNQUZ, LNQVW, LNQVX, LNQVY, LNQVZ, LNRTW, LNRTX, LNRTY, LNRTZ, LNRUW, LNRUX, LNRUY, LNRUZ, LNRVW, LNRVX, LNRVY, LNRVZ, LNSTW, LNSTX, LNSTY, LNSTZ, LNSUW, LNSUX, LNSUY, LNSUZ, LNSVW, LNSVX, LNSVY, LNSVZ, LOPTW, LOPTX, LOPTY, LOPTZ, LOPUW, LOPUX, LOPUY, LOPUZ, LOPVW, LOPVX, LOPVY, LOPVZ, LOQTW, LOQTX, LOQTY, LOQTZ, LOQUW, LOQUX, LOQUY, LOQUZ, LOQVW, LOQVX, LOQVY, LOQVZ, LORTW, LORTX, LORTY, LORTZ, LORUW, LORUX, LORUY, LORUZ, LORVW, LORVX, LORVY, LORVZ, LOSTW, LOSTX, LOSTY, LOSTZ, LOSUW, LOSUX, LOSUY, LOSUZ, LOSVW, LOSVX, LOSVY, LOSVZ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="2" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 63<br />Expected Combination List : [MD, ME, MF, ND, NE, NF, OD, OE, OF]<br />Actual Combination List : [MD, ME, MF, ND, NE, NF, OD, OE, OF]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+        <test-method status="PASS" signature="testValidRandomInputs(java.lang.String)[pri:0, instance:TestCases.testRandomInput@3c5a99da]" name="testValidRandomInputs" duration-ms="2" started-at="2020-08-10T09:33:49Z" data-provider="RandomData" finished-at="2020-08-10T09:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1598]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 1598<br />Expected Combination List : [1JWT, 1JWU, 1JWV, 1JXT, 1JXU, 1JXV, 1JYT, 1JYU, 1JYV, 1JZT, 1JZU, 1JZV, 1KWT, 1KWU, 1KWV, 1KXT, 1KXU, 1KXV, 1KYT, 1KYU, 1KYV, 1KZT, 1KZU, 1KZV, 1LWT, 1LWU, 1LWV, 1LXT, 1LXU, 1LXV, 1LYT, 1LYU, 1LYV, 1LZT, 1LZU, 1LZV]<br />Actual Combination List : [1JWT, 1JWU, 1JWV, 1JXT, 1JXU, 1JXV, 1JYT, 1JYU, 1JYV, 1JZT, 1JZU, 1JZV, 1KWT, 1KWU, 1KWV, 1KXT, 1KXU, 1KXV, 1KYT, 1KYU, 1KYV, 1KZT, 1KZU, 1KZV, 1LWT, 1LWU, 1LWV, 1LXT, 1LXU, 1LXV, 1LYT, 1LYU, 1LYV, 1LZT, 1LZU, 1LZV]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidRandomInputs -->
+      </class> <!-- TestCases.testRandomInput -->
+      <class name="TestCases.testSingleInput">
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="26" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 0<br />Expected Combination List : [0]<br />Actual Combination List : [0]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="1" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 2<br />Expected Combination List : [A, B, C]<br />Actual Combination List : [A, B, C]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="0" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 1<br />Expected Combination List : [1]<br />Actual Combination List : [1]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="0" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 3<br />Expected Combination List : [D, E, F]<br />Actual Combination List : [D, E, F]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="0" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 4<br />Expected Combination List : [G, H, I]<br />Actual Combination List : [G, H, I]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="1" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 5<br />Expected Combination List : [J, K, L]<br />Actual Combination List : [J, K, L]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="1" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 7<br />Expected Combination List : [P, Q, R, S]<br />Actual Combination List : [P, Q, R, S]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="0" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 6<br />Expected Combination List : [M, N, O]<br />Actual Combination List : [M, N, O]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="0" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 8<br />Expected Combination List : [T, U, V]<br />Actual Combination List : [T, U, V]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+        <test-method status="PASS" signature="testValidSingleInputs(java.lang.String)[pri:0, instance:TestCases.testSingleInput@4ec6a292]" name="testValidSingleInputs" duration-ms="1" started-at="2020-08-10T09:33:48Z" data-provider="ExcelData" finished-at="2020-08-10T09:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Provided Input Data : 9<br />Expected Combination List : [W, X, Y, Z]<br />Actual Combination List : [W, X, Y, Z]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSingleInputs -->
+      </class> <!-- TestCases.testSingleInput -->
+    </test> <!-- All Test Cases -->
+  </suite> <!-- TestSuite -->
+</testng-results>

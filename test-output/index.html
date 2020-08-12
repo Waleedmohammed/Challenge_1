@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuite">
+              <span class="suite-name border-passed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuite">
+                    <span>TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testInvalidInput" hash-for-method="testInvalidInputs(-1)">testInvalidInputs(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testInvalidInput" hash-for-method="testInvalidInputs(ABC)">testInvalidInputs(ABC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testInvalidInput" hash-for-method="testInvalidInputs(20#20)">testInvalidInputs(20#20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testInvalidInput" hash-for-method="testInvalidInputs(12*13)">testInvalidInputs(12*13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testInvalidInput" hash-for-method="testInvalidInputs(2.2)">testInvalidInputs(2.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testInvalidInput" hash-for-method="testInvalidInputs(12AB56)">testInvalidInputs(12AB56)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(1598)">testValidRandomInputs(1598)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(57)">testValidRandomInputs(57)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(1001)">testValidRandomInputs(1001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(9999)">testValidRandomInputs(9999)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(56789)">testValidRandomInputs(56789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(999)">testValidRandomInputs(999)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(63)">testValidRandomInputs(63)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(101)">testValidRandomInputs(101)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testRandomInput" hash-for-method="testValidRandomInputs(1234)">testValidRandomInputs(1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(7)">testValidSingleInputs(7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(2)">testValidSingleInputs(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(0)">testValidSingleInputs(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(4)">testValidSingleInputs(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(6)">testValidSingleInputs(6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(1)">testValidSingleInputs(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(8)">testValidSingleInputs(8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(5)">testValidSingleInputs(5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(3)">testValidSingleInputs(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.testSingleInput" hash-for-method="testValidSingleInputs(9)">testValidSingleInputs(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.testRandomInput</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(1598)">
+                  </a> <!-- testValidRandomInputs(1598) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(1598)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(57)">
+                  </a> <!-- testValidRandomInputs(57) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(57)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(1001)">
+                  </a> <!-- testValidRandomInputs(1001) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(1001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(9999)">
+                  </a> <!-- testValidRandomInputs(9999) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(9999)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(56789)">
+                  </a> <!-- testValidRandomInputs(56789) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(56789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(999)">
+                  </a> <!-- testValidRandomInputs(999) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(999)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(63)">
+                  </a> <!-- testValidRandomInputs(63) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(63)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(101)">
+                  </a> <!-- testValidRandomInputs(101) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(101)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRandomInputs(1234)">
+                  </a> <!-- testValidRandomInputs(1234) -->
+                  <span class="method-name">testValidRandomInputs</span>
+                  <span class="parameters">(1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.testSingleInput</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(7)">
+                  </a> <!-- testValidSingleInputs(7) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(2)">
+                  </a> <!-- testValidSingleInputs(2) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(0)">
+                  </a> <!-- testValidSingleInputs(0) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(4)">
+                  </a> <!-- testValidSingleInputs(4) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(6)">
+                  </a> <!-- testValidSingleInputs(6) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(1)">
+                  </a> <!-- testValidSingleInputs(1) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(8)">
+                  </a> <!-- testValidSingleInputs(8) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(5)">
+                  </a> <!-- testValidSingleInputs(5) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(3)">
+                  </a> <!-- testValidSingleInputs(3) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSingleInputs(9)">
+                  </a> <!-- testValidSingleInputs(9) -->
+                  <span class="method-name">testValidSingleInputs</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.testInvalidInput</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidInputs(-1)">
+                  </a> <!-- testInvalidInputs(-1) -->
+                  <span class="method-name">testInvalidInputs</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidInputs(ABC)">
+                  </a> <!-- testInvalidInputs(ABC) -->
+                  <span class="method-name">testInvalidInputs</span>
+                  <span class="parameters">(ABC)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidInputs(20#20)">
+                  </a> <!-- testInvalidInputs(20#20) -->
+                  <span class="method-name">testInvalidInputs</span>
+                  <span class="parameters">(20#20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidInputs(12*13)">
+                  </a> <!-- testInvalidInputs(12*13) -->
+                  <span class="method-name">testInvalidInputs</span>
+                  <span class="parameters">(12*13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidInputs(2.2)">
+                  </a> <!-- testInvalidInputs(2.2) -->
+                  <span class="method-name">testInvalidInputs</span>
+                  <span class="parameters">(2.2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidInputs(12AB56)">
+                  </a> <!-- testInvalidInputs(12AB56) -->
+                  <span class="method-name">testInvalidInputs</span>
+                  <span class="parameters">(12AB56)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/waleed.elbarbary/IdeaProjects/TelephoneDialPad-test/TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.Listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.testSingleInput&quot;/&gt;
+      &lt;class name=&quot;TestCases.testRandomInput&quot;/&gt;
+      &lt;class name=&quot;TestCases.testInvalidInput&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Test Cases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testValidSingleInputs')
+data.setCell(0, 2, 'TestCases.testSingleInput')
+data.setCell(0, 3, 26);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testValidRandomInputs')
+data.setCell(1, 2, 'TestCases.testRandomInput')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testValidRandomInputs')
+data.setCell(2, 2, 'TestCases.testRandomInput')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testValidRandomInputs')
+data.setCell(3, 2, 'TestCases.testRandomInput')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testValidRandomInputs')
+data.setCell(4, 2, 'TestCases.testRandomInput')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testValidRandomInputs')
+data.setCell(5, 2, 'TestCases.testRandomInput')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testValidRandomInputs')
+data.setCell(6, 2, 'TestCases.testRandomInput')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testValidRandomInputs')
+data.setCell(7, 2, 'TestCases.testRandomInput')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testValidSingleInputs')
+data.setCell(8, 2, 'TestCases.testSingleInput')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testValidSingleInputs')
+data.setCell(9, 2, 'TestCases.testSingleInput')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testValidRandomInputs')
+data.setCell(10, 2, 'TestCases.testRandomInput')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testInvalidInputs')
+data.setCell(11, 2, 'TestCases.testInvalidInput')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testValidSingleInputs')
+data.setCell(12, 2, 'TestCases.testSingleInput')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testValidSingleInputs')
+data.setCell(13, 2, 'TestCases.testSingleInput')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testInvalidInputs')
+data.setCell(14, 2, 'TestCases.testInvalidInput')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testValidRandomInputs')
+data.setCell(15, 2, 'TestCases.testRandomInput')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testInvalidInputs')
+data.setCell(16, 2, 'TestCases.testInvalidInput')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testInvalidInputs')
+data.setCell(17, 2, 'TestCases.testInvalidInput')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testValidSingleInputs')
+data.setCell(18, 2, 'TestCases.testSingleInput')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testInvalidInputs')
+data.setCell(19, 2, 'TestCases.testInvalidInput')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testValidSingleInputs')
+data.setCell(20, 2, 'TestCases.testSingleInput')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testValidSingleInputs')
+data.setCell(21, 2, 'TestCases.testSingleInput')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testValidSingleInputs')
+data.setCell(22, 2, 'TestCases.testSingleInput')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testValidSingleInputs')
+data.setCell(23, 2, 'TestCases.testSingleInput')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testInvalidInputs')
+data.setCell(24, 2, 'TestCases.testInvalidInput')
+data.setCell(24, 3, 0);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 60 ms</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInvalidInputs(-1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : -1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(7)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 7<br />Expected Combination List : [P, Q, R, S]<br />Actual Combination List : [P, Q, R, S]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 2<br />Expected Combination List : [A, B, C]<br />Actual Combination List : [A, B, C]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 0<br />Expected Combination List : [0]<br />Actual Combination List : [0]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(1598)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 1598<br />Expected Combination List : [1JWT, 1JWU, 1JWV, 1JXT, 1JXU, 1JXV, 1JYT, 1JYU, 1JYV, 1JZT, 1JZU, 1JZV, 1KWT, 1KWU, 1KWV, 1KXT, 1KXU, 1KXV, 1KYT, 1KYU, 1KYV, 1KZT, 1KZU, 1KZV, 1LWT, 1LWU, 1LWV, 1LXT, 1LXU, 1LXV, 1LYT, 1LYU, 1LYV, 1LZT, 1LZU, 1LZV]<br />Actual Combination List : [1JWT, 1JWU, 1JWV, 1JXT, 1JXU, 1JXV, 1JYT, 1JYU, 1JYV, 1JZT, 1JZU, 1JZV, 1KWT, 1KWU, 1KWV, 1KXT, 1KXU, 1KXV, 1KYT, 1KYU, 1KYV, 1KZT, 1KZU, 1KZV, 1LWT, 1LWU, 1LWV, 1LXT, 1LXU, 1LXV, 1LYT, 1LYU, 1LYV, 1LZT, 1LZU, 1LZV]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(57)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 57<br />Expected Combination List : [JP, JQ, JR, JS, KP, KQ, KR, KS, LP, LQ, LR, LS]<br />Actual Combination List : [JP, JQ, JR, JS, KP, KQ, KR, KS, LP, LQ, LR, LS]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(1001)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 1001<br />Expected Combination List : [1001]<br />Actual Combination List : [1001]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInvalidInputs(ABC)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : ABC</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(9999)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 9999<br />Expected Combination List : [WWWW, WWWX, WWWY, WWWZ, WWXW, WWXX, WWXY, WWXZ, WWYW, WWYX, WWYY, WWYZ, WWZW, WWZX, WWZY, WWZZ, WXWW, WXWX, WXWY, WXWZ, WXXW, WXXX, WXXY, WXXZ, WXYW, WXYX, WXYY, WXYZ, WXZW, WXZX, WXZY, WXZZ, WYWW, WYWX, WYWY, WYWZ, WYXW, WYXX, WYXY, WYXZ, WYYW, WYYX, WYYY, WYYZ, WYZW, WYZX, WYZY, WYZZ, WZWW, WZWX, WZWY, WZWZ, WZXW, WZXX, WZXY, WZXZ, WZYW, WZYX, WZYY, WZYZ, WZZW, WZZX, WZZY, WZZZ, XWWW, XWWX, XWWY, XWWZ, XWXW, XWXX, XWXY, XWXZ, XWYW, XWYX, XWYY, XWYZ, XWZW, XWZX, XWZY, XWZZ, XXWW, XXWX, XXWY, XXWZ, XXXW, XXXX, XXXY, XXXZ, XXYW, XXYX, XXYY, XXYZ, XXZW, XXZX, XXZY, XXZZ, XYWW, XYWX, XYWY, XYWZ, XYXW, XYXX, XYXY, XYXZ, XYYW, XYYX, XYYY, XYYZ, XYZW, XYZX, XYZY, XYZZ, XZWW, XZWX, XZWY, XZWZ, XZXW, XZXX, XZXY, XZXZ, XZYW, XZYX, XZYY, XZYZ, XZZW, XZZX, XZZY, XZZZ, YWWW, YWWX, YWWY, YWWZ, YWXW, YWXX, YWXY, YWXZ, YWYW, YWYX, YWYY, YWYZ, YWZW, YWZX, YWZY, YWZZ, YXWW, YXWX, YXWY, YXWZ, YXXW, YXXX, YXXY, YXXZ, YXYW, YXYX, YXYY, YXYZ, YXZW, YXZX, YXZY, YXZZ, YYWW, YYWX, YYWY, YYWZ, YYXW, YYXX, YYXY, YYXZ, YYYW, YYYX, YYYY, YYYZ, YYZW, YYZX, YYZY, YYZZ, YZWW, YZWX, YZWY, YZWZ, YZXW, YZXX, YZXY, YZXZ, YZYW, YZYX, YZYY, YZYZ, YZZW, YZZX, YZZY, YZZZ, ZWWW, ZWWX, ZWWY, ZWWZ, ZWXW, ZWXX, ZWXY, ZWXZ, ZWYW, ZWYX, ZWYY, ZWYZ, ZWZW, ZWZX, ZWZY, ZWZZ, ZXWW, ZXWX, ZXWY, ZXWZ, ZXXW, ZXXX, ZXXY, ZXXZ, ZXYW, ZXYX, ZXYY, ZXYZ, ZXZW, ZXZX, ZXZY, ZXZZ, ZYWW, ZYWX, ZYWY, ZYWZ, ZYXW, ZYXX, ZYXY, ZYXZ, ZYYW, ZYYX, ZYYY, ZYYZ, ZYZW, ZYZX, ZYZY, ZYZZ, ZZWW, ZZWX, ZZWY, ZZWZ, ZZXW, ZZXX, ZZXY, ZZXZ, ZZYW, ZZYX, ZZYY, ZZYZ, ZZZW, ZZZX, ZZZY, ZZZZ]<br />Actual Combination List : [WWWW, WWWX, WWWY, WWWZ, WWXW, WWXX, WWXY, WWXZ, WWYW, WWYX, WWYY, WWYZ, WWZW, WWZX, WWZY, WWZZ, WXWW, WXWX, WXWY, WXWZ, WXXW, WXXX, WXXY, WXXZ, WXYW, WXYX, WXYY, WXYZ, WXZW, WXZX, WXZY, WXZZ, WYWW, WYWX, WYWY, WYWZ, WYXW, WYXX, WYXY, WYXZ, WYYW, WYYX, WYYY, WYYZ, WYZW, WYZX, WYZY, WYZZ, WZWW, WZWX, WZWY, WZWZ, WZXW, WZXX, WZXY, WZXZ, WZYW, WZYX, WZYY, WZYZ, WZZW, WZZX, WZZY, WZZZ, XWWW, XWWX, XWWY, XWWZ, XWXW, XWXX, XWXY, XWXZ, XWYW, XWYX, XWYY, XWYZ, XWZW, XWZX, XWZY, XWZZ, XXWW, XXWX, XXWY, XXWZ, XXXW, XXXX, XXXY, XXXZ, XXYW, XXYX, XXYY, XXYZ, XXZW, XXZX, XXZY, XXZZ, XYWW, XYWX, XYWY, XYWZ, XYXW, XYXX, XYXY, XYXZ, XYYW, XYYX, XYYY, XYYZ, XYZW, XYZX, XYZY, XYZZ, XZWW, XZWX, XZWY, XZWZ, XZXW, XZXX, XZXY, XZXZ, XZYW, XZYX, XZYY, XZYZ, XZZW, XZZX, XZZY, XZZZ, YWWW, YWWX, YWWY, YWWZ, YWXW, YWXX, YWXY, YWXZ, YWYW, YWYX, YWYY, YWYZ, YWZW, YWZX, YWZY, YWZZ, YXWW, YXWX, YXWY, YXWZ, YXXW, YXXX, YXXY, YXXZ, YXYW, YXYX, YXYY, YXYZ, YXZW, YXZX, YXZY, YXZZ, YYWW, YYWX, YYWY, YYWZ, YYXW, YYXX, YYXY, YYXZ, YYYW, YYYX, YYYY, YYYZ, YYZW, YYZX, YYZY, YYZZ, YZWW, YZWX, YZWY, YZWZ, YZXW, YZXX, YZXY, YZXZ, YZYW, YZYX, YZYY, YZYZ, YZZW, YZZX, YZZY, YZZZ, ZWWW, ZWWX, ZWWY, ZWWZ, ZWXW, ZWXX, ZWXY, ZWXZ, ZWYW, ZWYX, ZWYY, ZWYZ, ZWZW, ZWZX, ZWZY, ZWZZ, ZXWW, ZXWX, ZXWY, ZXWZ, ZXXW, ZXXX, ZXXY, ZXXZ, ZXYW, ZXYX, ZXYY, ZXYZ, ZXZW, ZXZX, ZXZY, ZXZZ, ZYWW, ZYWX, ZYWY, ZYWZ, ZYXW, ZYXX, ZYXY, ZYXZ, ZYYW, ZYYX, ZYYY, ZYYZ, ZYZW, ZYZX, ZYZY, ZYZZ, ZZWW, ZZWX, ZZWY, ZZWZ, ZZXW, ZZXX, ZZXY, ZZXZ, ZZYW, ZZYX, ZZYY, ZZYZ, ZZZW, ZZZX, ZZZY, ZZZZ]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(4)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 4<br />Expected Combination List : [G, H, I]<br />Actual Combination List : [G, H, I]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(56789)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 56789<br />Expected Combination List : [JMPTW, JMPTX, JMPTY, JMPTZ, JMPUW, JMPUX, JMPUY, JMPUZ, JMPVW, JMPVX, JMPVY, JMPVZ, JMQTW, JMQTX, JMQTY, JMQTZ, JMQUW, JMQUX, JMQUY, JMQUZ, JMQVW, JMQVX, JMQVY, JMQVZ, JMRTW, JMRTX, JMRTY, JMRTZ, JMRUW, JMRUX, JMRUY, JMRUZ, JMRVW, JMRVX, JMRVY, JMRVZ, JMSTW, JMSTX, JMSTY, JMSTZ, JMSUW, JMSUX, JMSUY, JMSUZ, JMSVW, JMSVX, JMSVY, JMSVZ, JNPTW, JNPTX, JNPTY, JNPTZ, JNPUW, JNPUX, JNPUY, JNPUZ, JNPVW, JNPVX, JNPVY, JNPVZ, JNQTW, JNQTX, JNQTY, JNQTZ, JNQUW, JNQUX, JNQUY, JNQUZ, JNQVW, JNQVX, JNQVY, JNQVZ, JNRTW, JNRTX, JNRTY, JNRTZ, JNRUW, JNRUX, JNRUY, JNRUZ, JNRVW, JNRVX, JNRVY, JNRVZ, JNSTW, JNSTX, JNSTY, JNSTZ, JNSUW, JNSUX, JNSUY, JNSUZ, JNSVW, JNSVX, JNSVY, JNSVZ, JOPTW, JOPTX, JOPTY, JOPTZ, JOPUW, JOPUX, JOPUY, JOPUZ, JOPVW, JOPVX, JOPVY, JOPVZ, JOQTW, JOQTX, JOQTY, JOQTZ, JOQUW, JOQUX, JOQUY, JOQUZ, JOQVW, JOQVX, JOQVY, JOQVZ, JORTW, JORTX, JORTY, JORTZ, JORUW, JORUX, JORUY, JORUZ, JORVW, JORVX, JORVY, JORVZ, JOSTW, JOSTX, JOSTY, JOSTZ, JOSUW, JOSUX, JOSUY, JOSUZ, JOSVW, JOSVX, JOSVY, JOSVZ, KMPTW, KMPTX, KMPTY, KMPTZ, KMPUW, KMPUX, KMPUY, KMPUZ, KMPVW, KMPVX, KMPVY, KMPVZ, KMQTW, KMQTX, KMQTY, KMQTZ, KMQUW, KMQUX, KMQUY, KMQUZ, KMQVW, KMQVX, KMQVY, KMQVZ, KMRTW, KMRTX, KMRTY, KMRTZ, KMRUW, KMRUX, KMRUY, KMRUZ, KMRVW, KMRVX, KMRVY, KMRVZ, KMSTW, KMSTX, KMSTY, KMSTZ, KMSUW, KMSUX, KMSUY, KMSUZ, KMSVW, KMSVX, KMSVY, KMSVZ, KNPTW, KNPTX, KNPTY, KNPTZ, KNPUW, KNPUX, KNPUY, KNPUZ, KNPVW, KNPVX, KNPVY, KNPVZ, KNQTW, KNQTX, KNQTY, KNQTZ, KNQUW, KNQUX, KNQUY, KNQUZ, KNQVW, KNQVX, KNQVY, KNQVZ, KNRTW, KNRTX, KNRTY, KNRTZ, KNRUW, KNRUX, KNRUY, KNRUZ, KNRVW, KNRVX, KNRVY, KNRVZ, KNSTW, KNSTX, KNSTY, KNSTZ, KNSUW, KNSUX, KNSUY, KNSUZ, KNSVW, KNSVX, KNSVY, KNSVZ, KOPTW, KOPTX, KOPTY, KOPTZ, KOPUW, KOPUX, KOPUY, KOPUZ, KOPVW, KOPVX, KOPVY, KOPVZ, KOQTW, KOQTX, KOQTY, KOQTZ, KOQUW, KOQUX, KOQUY, KOQUZ, KOQVW, KOQVX, KOQVY, KOQVZ, KORTW, KORTX, KORTY, KORTZ, KORUW, KORUX, KORUY, KORUZ, KORVW, KORVX, KORVY, KORVZ, KOSTW, KOSTX, KOSTY, KOSTZ, KOSUW, KOSUX, KOSUY, KOSUZ, KOSVW, KOSVX, KOSVY, KOSVZ, LMPTW, LMPTX, LMPTY, LMPTZ, LMPUW, LMPUX, LMPUY, LMPUZ, LMPVW, LMPVX, LMPVY, LMPVZ, LMQTW, LMQTX, LMQTY, LMQTZ, LMQUW, LMQUX, LMQUY, LMQUZ, LMQVW, LMQVX, LMQVY, LMQVZ, LMRTW, LMRTX, LMRTY, LMRTZ, LMRUW, LMRUX, LMRUY, LMRUZ, LMRVW, LMRVX, LMRVY, LMRVZ, LMSTW, LMSTX, LMSTY, LMSTZ, LMSUW, LMSUX, LMSUY, LMSUZ, LMSVW, LMSVX, LMSVY, LMSVZ, LNPTW, LNPTX, LNPTY, LNPTZ, LNPUW, LNPUX, LNPUY, LNPUZ, LNPVW, LNPVX, LNPVY, LNPVZ, LNQTW, LNQTX, LNQTY, LNQTZ, LNQUW, LNQUX, LNQUY, LNQUZ, LNQVW, LNQVX, LNQVY, LNQVZ, LNRTW, LNRTX, LNRTY, LNRTZ, LNRUW, LNRUX, LNRUY, LNRUZ, LNRVW, LNRVX, LNRVY, LNRVZ, LNSTW, LNSTX, LNSTY, LNSTZ, LNSUW, LNSUX, LNSUY, LNSUZ, LNSVW, LNSVX, LNSVY, LNSVZ, LOPTW, LOPTX, LOPTY, LOPTZ, LOPUW, LOPUX, LOPUY, LOPUZ, LOPVW, LOPVX, LOPVY, LOPVZ, LOQTW, LOQTX, LOQTY, LOQTZ, LOQUW, LOQUX, LOQUY, LOQUZ, LOQVW, LOQVX, LOQVY, LOQVZ, LORTW, LORTX, LORTY, LORTZ, LORUW, LORUX, LORUY, LORUZ, LORVW, LORVX, LORVY, LORVZ, LOSTW, LOSTX, LOSTY, LOSTZ, LOSUW, LOSUX, LOSUY, LOSUZ, LOSVW, LOSVX, LOSVY, LOSVZ]<br />Actual Combination List : [JMPTW, JMPTX, JMPTY, JMPTZ, JMPUW, JMPUX, JMPUY, JMPUZ, JMPVW, JMPVX, JMPVY, JMPVZ, JMQTW, JMQTX, JMQTY, JMQTZ, JMQUW, JMQUX, JMQUY, JMQUZ, JMQVW, JMQVX, JMQVY, JMQVZ, JMRTW, JMRTX, JMRTY, JMRTZ, JMRUW, JMRUX, JMRUY, JMRUZ, JMRVW, JMRVX, JMRVY, JMRVZ, JMSTW, JMSTX, JMSTY, JMSTZ, JMSUW, JMSUX, JMSUY, JMSUZ, JMSVW, JMSVX, JMSVY, JMSVZ, JNPTW, JNPTX, JNPTY, JNPTZ, JNPUW, JNPUX, JNPUY, JNPUZ, JNPVW, JNPVX, JNPVY, JNPVZ, JNQTW, JNQTX, JNQTY, JNQTZ, JNQUW, JNQUX, JNQUY, JNQUZ, JNQVW, JNQVX, JNQVY, JNQVZ, JNRTW, JNRTX, JNRTY, JNRTZ, JNRUW, JNRUX, JNRUY, JNRUZ, JNRVW, JNRVX, JNRVY, JNRVZ, JNSTW, JNSTX, JNSTY, JNSTZ, JNSUW, JNSUX, JNSUY, JNSUZ, JNSVW, JNSVX, JNSVY, JNSVZ, JOPTW, JOPTX, JOPTY, JOPTZ, JOPUW, JOPUX, JOPUY, JOPUZ, JOPVW, JOPVX, JOPVY, JOPVZ, JOQTW, JOQTX, JOQTY, JOQTZ, JOQUW, JOQUX, JOQUY, JOQUZ, JOQVW, JOQVX, JOQVY, JOQVZ, JORTW, JORTX, JORTY, JORTZ, JORUW, JORUX, JORUY, JORUZ, JORVW, JORVX, JORVY, JORVZ, JOSTW, JOSTX, JOSTY, JOSTZ, JOSUW, JOSUX, JOSUY, JOSUZ, JOSVW, JOSVX, JOSVY, JOSVZ, KMPTW, KMPTX, KMPTY, KMPTZ, KMPUW, KMPUX, KMPUY, KMPUZ, KMPVW, KMPVX, KMPVY, KMPVZ, KMQTW, KMQTX, KMQTY, KMQTZ, KMQUW, KMQUX, KMQUY, KMQUZ, KMQVW, KMQVX, KMQVY, KMQVZ, KMRTW, KMRTX, KMRTY, KMRTZ, KMRUW, KMRUX, KMRUY, KMRUZ, KMRVW, KMRVX, KMRVY, KMRVZ, KMSTW, KMSTX, KMSTY, KMSTZ, KMSUW, KMSUX, KMSUY, KMSUZ, KMSVW, KMSVX, KMSVY, KMSVZ, KNPTW, KNPTX, KNPTY, KNPTZ, KNPUW, KNPUX, KNPUY, KNPUZ, KNPVW, KNPVX, KNPVY, KNPVZ, KNQTW, KNQTX, KNQTY, KNQTZ, KNQUW, KNQUX, KNQUY, KNQUZ, KNQVW, KNQVX, KNQVY, KNQVZ, KNRTW, KNRTX, KNRTY, KNRTZ, KNRUW, KNRUX, KNRUY, KNRUZ, KNRVW, KNRVX, KNRVY, KNRVZ, KNSTW, KNSTX, KNSTY, KNSTZ, KNSUW, KNSUX, KNSUY, KNSUZ, KNSVW, KNSVX, KNSVY, KNSVZ, KOPTW, KOPTX, KOPTY, KOPTZ, KOPUW, KOPUX, KOPUY, KOPUZ, KOPVW, KOPVX, KOPVY, KOPVZ, KOQTW, KOQTX, KOQTY, KOQTZ, KOQUW, KOQUX, KOQUY, KOQUZ, KOQVW, KOQVX, KOQVY, KOQVZ, KORTW, KORTX, KORTY, KORTZ, KORUW, KORUX, KORUY, KORUZ, KORVW, KORVX, KORVY, KORVZ, KOSTW, KOSTX, KOSTY, KOSTZ, KOSUW, KOSUX, KOSUY, KOSUZ, KOSVW, KOSVX, KOSVY, KOSVZ, LMPTW, LMPTX, LMPTY, LMPTZ, LMPUW, LMPUX, LMPUY, LMPUZ, LMPVW, LMPVX, LMPVY, LMPVZ, LMQTW, LMQTX, LMQTY, LMQTZ, LMQUW, LMQUX, LMQUY, LMQUZ, LMQVW, LMQVX, LMQVY, LMQVZ, LMRTW, LMRTX, LMRTY, LMRTZ, LMRUW, LMRUX, LMRUY, LMRUZ, LMRVW, LMRVX, LMRVY, LMRVZ, LMSTW, LMSTX, LMSTY, LMSTZ, LMSUW, LMSUX, LMSUY, LMSUZ, LMSVW, LMSVX, LMSVY, LMSVZ, LNPTW, LNPTX, LNPTY, LNPTZ, LNPUW, LNPUX, LNPUY, LNPUZ, LNPVW, LNPVX, LNPVY, LNPVZ, LNQTW, LNQTX, LNQTY, LNQTZ, LNQUW, LNQUX, LNQUY, LNQUZ, LNQVW, LNQVX, LNQVY, LNQVZ, LNRTW, LNRTX, LNRTY, LNRTZ, LNRUW, LNRUX, LNRUY, LNRUZ, LNRVW, LNRVX, LNRVY, LNRVZ, LNSTW, LNSTX, LNSTY, LNSTZ, LNSUW, LNSUX, LNSUY, LNSUZ, LNSVW, LNSVX, LNSVY, LNSVZ, LOPTW, LOPTX, LOPTY, LOPTZ, LOPUW, LOPUX, LOPUY, LOPUZ, LOPVW, LOPVX, LOPVY, LOPVZ, LOQTW, LOQTX, LOQTY, LOQTZ, LOQUW, LOQUX, LOQUY, LOQUZ, LOQVW, LOQVX, LOQVY, LOQVZ, LORTW, LORTX, LORTY, LORTZ, LORUW, LORUX, LORUY, LORUZ, LORVW, LORVX, LORVY, LORVZ, LOSTW, LOSTX, LOSTY, LOSTZ, LOSUW, LOSUX, LOSUY, LOSUZ, LOSVW, LOSVX, LOSVY, LOSVZ]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInvalidInputs(20#20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 20#20</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(6)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 6<br />Expected Combination List : [M, N, O]<br />Actual Combination List : [M, N, O]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 1<br />Expected Combination List : [1]<br />Actual Combination List : [1]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(8)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 8<br />Expected Combination List : [T, U, V]<br />Actual Combination List : [T, U, V]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(5)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 5<br />Expected Combination List : [J, K, L]<br />Actual Combination List : [J, K, L]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(999)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 999<br />Expected Combination List : [WWW, WWX, WWY, WWZ, WXW, WXX, WXY, WXZ, WYW, WYX, WYY, WYZ, WZW, WZX, WZY, WZZ, XWW, XWX, XWY, XWZ, XXW, XXX, XXY, XXZ, XYW, XYX, XYY, XYZ, XZW, XZX, XZY, XZZ, YWW, YWX, YWY, YWZ, YXW, YXX, YXY, YXZ, YYW, YYX, YYY, YYZ, YZW, YZX, YZY, YZZ, ZWW, ZWX, ZWY, ZWZ, ZXW, ZXX, ZXY, ZXZ, ZYW, ZYX, ZYY, ZYZ, ZZW, ZZX, ZZY, ZZZ]<br />Actual Combination List : [WWW, WWX, WWY, WWZ, WXW, WXX, WXY, WXZ, WYW, WYX, WYY, WYZ, WZW, WZX, WZY, WZZ, XWW, XWX, XWY, XWZ, XXW, XXX, XXY, XXZ, XYW, XYX, XYY, XYZ, XZW, XZX, XZY, XZZ, YWW, YWX, YWY, YWZ, YXW, YXX, YXY, YXZ, YYW, YYX, YYY, YYZ, YZW, YZX, YZY, YZZ, ZWW, ZWX, ZWY, ZWZ, ZXW, ZXX, ZXY, ZXZ, ZYW, ZYX, ZYY, ZYZ, ZZW, ZZX, ZZY, ZZZ]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(3)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 3<br />Expected Combination List : [D, E, F]<br />Actual Combination List : [D, E, F]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidSingleInputs(9)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 9<br />Expected Combination List : [W, X, Y, Z]<br />Actual Combination List : [W, X, Y, Z]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(63)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 63<br />Expected Combination List : [MD, ME, MF, ND, NE, NF, OD, OE, OF]<br />Actual Combination List : [MD, ME, MF, ND, NE, NF, OD, OE, OF]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInvalidInputs(12*13)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 12*13</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(101)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 101<br />Expected Combination List : [101]<br />Actual Combination List : [101]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidRandomInputs(1234)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 1234<br />Expected Combination List : [1ADG, 1ADH, 1ADI, 1AEG, 1AEH, 1AEI, 1AFG, 1AFH, 1AFI, 1BDG, 1BDH, 1BDI, 1BEG, 1BEH, 1BEI, 1BFG, 1BFH, 1BFI, 1CDG, 1CDH, 1CDI, 1CEG, 1CEH, 1CEI, 1CFG, 1CFH, 1CFI]<br />Actual Combination List : [1ADG, 1ADH, 1ADI, 1AEG, 1AEH, 1AEI, 1AFG, 1AFH, 1AFI, 1BDG, 1BDH, 1BDI, 1BEG, 1BEH, 1BEI, 1BFG, 1BFH, 1BFI, 1CDG, 1CDH, 1CDI, 1CEG, 1CEH, 1CEI, 1CFG, 1CFH, 1CFI]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInvalidInputs(2.2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 2.2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInvalidInputs(12AB56)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Provided Input Data : 12AB56</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.testSingleInput</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(1)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(2)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(3)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(4)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(5)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(6)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(7)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(8)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSingleInputs(9)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.testRandomInput</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(57)</span>
+                <span class="method-start">162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(101)</span>
+                <span class="method-start">163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(999)</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(1001)</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(9999)</span>
+                <span class="method-start">175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(1234)</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(56789)</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(63)</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidRandomInputs(1598)</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.testInvalidInput</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInvalidInputs(ABC)</span>
+                <span class="method-start">313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidInputs(2.2)</span>
+                <span class="method-start">314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidInputs(-1)</span>
+                <span class="method-start">315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidInputs(12AB56)</span>
+                <span class="method-start">316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidInputs(12*13)</span>
+                <span class="method-start">316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidInputs(20#20)</span>
+                <span class="method-start">317 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
